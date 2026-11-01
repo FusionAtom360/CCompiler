@@ -1,6 +1,6 @@
-# CCompiler2
+# CCompiler
 
-CCompiler2 is a small C compiler written in C++. It tokenizes C source, builds an abstract syntax tree, and generates AArch64 assembly.
+CCompiler is a small C compiler written in C++. It tokenizes C source, builds an abstract syntax tree, and generates AArch64 assembly.
 
 ## Features
 
