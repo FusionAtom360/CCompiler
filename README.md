@@ -2,6 +2,9 @@
 
 CCompiler is a small C compiler written in C++. It tokenizes C source, builds an abstract syntax tree, and generates AArch64 assembly.
 
+### Note on LLM usage
+This is a self-directed learning project, so I wrote the code myself to make sure I understand every part of it. I used GitHub Copilot as an adversarial reviewer: it critiqued the implementation and the test suite and pointed out gaps. I implemented most of the resulting fixes myself. LLMs also assisted in the editing and formatting of this README. GitHub Copilot wrote the code for the incremental C test suite found in `src/tests`. I have reviewed and can explain all of it.
+
 ## Features
 
 - Lexing and parsing of core C syntax
